@@ -20,6 +20,7 @@
         android:id="@+id/btn_container_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="@+id/counter_id"
         app:layout_constraintStart_toStartOf="@+id/counter_id"
         app:layout_constraintTop_toBottomOf="@+id/counter_id">
@@ -29,6 +30,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="+" />
+
+        <Button
+            android:id="@+id/decrease_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="-" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

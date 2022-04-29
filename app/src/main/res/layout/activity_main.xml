@@ -29,13 +29,15 @@
             android:id="@+id/increase_btn_id"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="+" />
+            android:text="+"
+            android:backgroundTint="@color/black"/>
 
         <Button
             android:id="@+id/decrease_btn_id"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="-" />
+            android:text="-"
+            android:backgroundTint="@color/black"/>
 
     </LinearLayout>
 

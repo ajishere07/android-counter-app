@@ -23,6 +23,7 @@ ActivityMainBinding binding;
             @Override
             public void onClick(View view) {
                 int i = Integer.valueOf(binding.counterId.getText().toString()) + 1;
+                // increasinig
                 binding.counterId.setText(String.valueOf(i));
             }
         });
@@ -33,7 +34,8 @@ ActivityMainBinding binding;
                 int i = Integer.valueOf(binding.counterId.getText().toString()) - 1;
                if (i == 0){
                    Toast.makeText(MainActivity.this, "Click + First", Toast.LENGTH_SHORT).show();
-                }else {
+                }else
+                {
                    binding.counterId.setText(String.valueOf(i));
 
                }
